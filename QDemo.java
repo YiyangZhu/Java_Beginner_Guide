@@ -1,7 +1,7 @@
 public class QDemo{
     public static void main(String[] args){
-        Queue bigQ = new Queue(100);
-        Queue smallQ = new Queue(4);
+        Queue bigQ = new Queue(50);
+        Queue smallQ = new Queue(6);
         char ch;
         int i;
         
@@ -25,6 +25,7 @@ public class QDemo{
         for(i = 0; i < 7;i++){
             System.out.print(smallQ.get()+" ");
         }
+        System.out.println();
     }
 }
     
